@@ -120,7 +120,7 @@ export default function EventsPage() {
         <div className="container flex items-center justify-between h-16 px-4 mx-auto md:px-6">
           <div className="flex items-center gap-2">
             <Image
-              src="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={Images}
               alt="Nawjawanan e Tholiyandeh Logo"
               width={40}
               height={40}
@@ -475,7 +475,7 @@ export default function EventsPage() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Image
-                src={Images}
+                  src={Images}
                   alt="Nawjawanan e Tholiyandeh Logo"
                   width={40}
                   height={40}
